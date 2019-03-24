@@ -1,0 +1,35 @@
+{
+  "name": "@bretkikehara/karma-webdriverio-launcher",
+  "version": "0.0.1",
+  "description": "A Karma plugin. Wrapper for running tests on Selenium server using the webdriverio bindings.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bretkikehara/karma-webdriverio-launcher.git"
+  },
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "karma-launcher",
+    "webdriverio",
+    "webdriver",
+    "screenshots",
+    "screenshot",
+    "selenium"
+  ],
+  "author": "Bret K. Ikehara <bret.k.ikehara@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.0"
+  },
+  "dependencies": {
+    "webdriverio": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
