@@ -1,6 +1,12 @@
 karma-webdriverio-launcher
 ============================================================
 
+# Install
+
+```
+$ npm i -D @bretkikehara/karma-webdriverio-launcher
+```
+
 # Minimun config
 
 There are 3 configs that power this tool: `wdioLauncher`, `middleware`, and `customLaunchers`.

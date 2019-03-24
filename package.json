@@ -1,6 +1,6 @@
 {
   "name": "@bretkikehara/karma-webdriverio-launcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Karma plugin. Wrapper for running tests on Selenium server using the webdriverio bindings.",
   "main": "dist/index.js",
   "scripts": {
